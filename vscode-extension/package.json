@@ -1,0 +1,52 @@
+{
+  "name": "cognitive-zip-vscode",
+  "displayName": "CognitiveZip - Zero-Extraction Archive Explorer",
+  "description": "Explore and query .czip compressed archives directly in VS Code without extraction.",
+  "version": "1.0.0",
+  "publisher": "jasper-technologies",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages",
+    "Machine Learning"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "czip.exploreArchive",
+        "title": "CognitiveZip: Explore Archive without Extraction"
+      },
+      {
+        "command": "czip.semanticSearch",
+        "title": "CognitiveZip: Semantic Search Inside Archive"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "czip.exploreArchive",
+          "when": "resourceExtname == .czip",
+          "group": "navigation"
+        },
+        {
+          "command": "czip.semanticSearch",
+          "when": "resourceExtname == .czip",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.3.0"
+  }
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cognitive-zip"
+version = "1.0.0"
+authors = [
+  { name="Javohirbek Asqarov (Jasper)", email="jasper@antigravity.dev" },
+]
+description = "Zero-Extraction Semantic Archiver for Humans & Autonomous AI Coding Agents"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Archiving :: Compression",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.scripts]
+czip = "cognitive_zip.cli:main"
