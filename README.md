@@ -1,6 +1,7 @@
 # 🧠 CognitiveZip (`.czip`)
 
 [![PyPI version](https://img.shields.io/badge/pypi-v1.0.0-blue.svg)](https://pypi.org/)
+[![Website](https://img.shields.io/badge/website-live%20demo-06B6D4.svg)](https://salomh46-rgb.github.io/CognitiveZip-.czip-/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Open Standard](https://img.shields.io/badge/RFC-001%20Open%20Standard-purple.svg)](./SPECIFICATION.md)
 [![Query Latency](https://img.shields.io/badge/search%20latency-sub--1ms-brightgreen.svg)]()
@@ -8,6 +9,7 @@
 [![Tests](https://img.shields.io/badge/tests-4%2F4%20passed%20(100%25)-success.svg)]()
 
 > **The World's First Zero-Extraction Semantic Archiver for Humans & Autonomous AI Agents.**  
+> 🌐 **Live Interactive Website:** [https://salomh46-rgb.github.io/CognitiveZip-.czip-/](https://salomh46-rgb.github.io/CognitiveZip-.czip-/)  
 > In 1999, Igor Pavlov invented **7-Zip** for the personal computing era.  
 > In 2026, **CognitiveZip (`.czip`)** revolutionizes archival computing for the artificial intelligence era — query codebases in **sub-milliseconds** and stream files directly into memory **without decompressing the archive to disk**.
 
